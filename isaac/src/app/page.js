@@ -8,8 +8,8 @@ import Header from './header.js';
 export default function Home() {
   return (
     <main>
-      <Menu />
       <Header />
+      <Menu />
       <Projects />
     </main>
   )
