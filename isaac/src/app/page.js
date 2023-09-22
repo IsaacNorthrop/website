@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main>
       <Nav />
+      <Projects />
       <Intro />
       <Content />
-      <Projects />
     </main>
   )
 }
