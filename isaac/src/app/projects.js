@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 export default function Projects() {
   return (
-    <Grid2 container>
+    <Grid2>
       <Button>Cover Letter Generator</Button>
       <Button>Sudoku Solver</Button>
       <Button>java</Button>
