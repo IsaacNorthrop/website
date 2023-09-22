@@ -1,15 +1,15 @@
-import Menu from './menu.js';
+import Intro from './intro.js';
 import Projects from './projects.js';
-import Header from './header.js';
-
-
+import Nav from './nav.js';
+import Content from './content.js';
 
 
 export default function Home() {
   return (
     <main>
-      <Header />
-      <Menu />
+      <Nav />
+      <Intro />
+      <Content />
       <Projects />
     </main>
   )
