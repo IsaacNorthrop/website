@@ -1,6 +1,8 @@
 import isaac from './imports/isaac.jpg'
 import Image from 'next/image'
 import Grid2 from '@mui/material/Unstable_Grid2'
+import Typography from '@mui/material/Typography';
+
 
 
 export default function Menu() {
@@ -17,9 +19,9 @@ export default function Menu() {
           />
         </Grid2>
         <Grid2 xs={6}>
-          <p>
+          <Typography variant="h1" align="left">
             Isaac Northrop
-          </p>
+          </Typography>
         </Grid2>
       </Grid2>
     </div>
