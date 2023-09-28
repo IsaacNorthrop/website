@@ -9,7 +9,7 @@ export default function Menu() {
   return (
     <div>
       <Grid2 container>
-        <Grid2 container xs={6}>
+        <Grid2 container xs={3}>
           <Image
             src={isaac}
             alt="isaac"
@@ -18,7 +18,7 @@ export default function Menu() {
           // fill={true}
           />
         </Grid2>
-        <Grid2 xs={6}>
+        <Grid2 xs={9} container>
           <Typography variant="h1" align="left">
             Isaac Northrop
           </Typography>
